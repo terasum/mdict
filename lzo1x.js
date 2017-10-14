@@ -609,3 +609,5 @@ var lzo1x = (function () {
 		}
 	};
 })();
+
+module.exports = lzo1x;

@@ -1,34 +1,43 @@
 {
-  "name": "mdict",
-  "version": "1.0.2",
-  "description": "node.js mdict (*.mdx, *.mdd) file reader",
+  "name": "js-mdict",
+  "version": "1.0.0",
+  "description": "mdict (*.mdx, *.mdd) file reader, support both of browser and node.js",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jeka-kiselyov/mdict.git"
+    "url": "git+https://github.com/terasum/mdict.git"
   },
   "keywords": [
     "mdict",
     "dictionary",
     "mdx",
     "mdd",
-    "vocabulary"
+    "vocabulary",
+    "borwser"
   ],
-  "author": "Jeka Kiselyov <jeka911@gmail.com> (https://github.com/jeka-kiselyov)",
+  "author": "terasum <terasum@163.com> (https://github.com/terasum)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jeka-kiselyov/mdict/issues"
+    "url": "https://github.com/terasum/mdict/issues"
   },
-  "homepage": "https://github.com/jeka-kiselyov/mdict#readme",
+  "homepage": "https://github.com/terasum/mdict#readme",
   "dependencies": {
+    "arraybuffer-to-buffer": "0.0.4",
+    "blob-to-buffer": "^1.2.6",
     "bluebird": "^3.4.7",
+    "buffer": "^5.0.7",
     "buffer-dataview": "0.0.2",
+    "detect-node": "^2.0.3",
+    "fs-web": "^1.0.1",
+    "lodash": "^4.17.4",
     "pako": "^1.0.4",
     "text-encoding": "^0.6.4",
     "xmldom": "^0.1.27"
   },
-  "engines" : { "node" : ">=3.0.0" }
+  "engines": {
+    "node": ">=3.0.0"
+  }
 }
