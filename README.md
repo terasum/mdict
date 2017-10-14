@@ -1,16 +1,17 @@
 # mdict
 mdict (*.mdd *.mdx) file reader based on https://github.com/jeka-kiselyov/mdict, improvement imcludes :
-1. Node.js /browser support
-2. HTML5 FILE API/ fs stream/ajax support
-3. fix require import path problem
-4. simpler promise api
+
+1. Node.js / browser support
+2. HTML5 FILE API (or ajax) / fs stream support
+3. fix require import path bug
+4. flexible promise api
 
 VERY THANKS TO [fengdh](https://github.com/fengdh/mdict-js) and  [jeka-kiselyov](https://github.com/jeka-kiselyov/mdict)
 
 # usage
 
 ```bash
-npm install mdict-js
+npm install js-mdict
 ```
 
 ## in browser:
@@ -95,15 +96,3 @@ var mdict = require("./index.js");
     });
 })();
 ```
-
-
-# originally description:
-
-node.js mdict (*.mdx, *.mdd) file reader
-
-Rude refactoring of https://github.com/fengdh/mdict-js to make it work on nodejs by [Jeka Kiselyov](https://github.com/jeka-kiselyov).
-Done enough to make it work for my project(with predefined dictionaries). It's tested with few .mdx files only, so there may be some bugs with other dictionaries. Please check and please feel free to submit pull requests with optimizations, unit tests etc.
-
-Released under terms of the MIT License, as original library.
-
-This is [on GitHub](https://github.com/jeka-kiselyov/mdict).
